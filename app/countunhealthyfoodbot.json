@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "countunhealthyfoodbot",
+  "private_key_id": "3e6641e3b632f43689bfd999cdecd0afc2af4b42",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGe6oPQmUXt2On\npMJxC5b+D1YvYLw+8Qj2pqjRkwXkKIiBd1Pdub/pbUqSYuWBtlBREi2+sMpIWhAz\n4TjRhpQgLrLxIAkgvHjKolGNPYmTQ1pOSvRKld/D3gi8orUXfMAF+Si8USwi54GF\neT5dXNLafpF1LScRKh0g0OV8KG4D0Dr5/S1x2eCEqvonGIhkAauxpNC4djTY2Stj\nOooPAN5m1UbkF0bhWk+3OycW+TnN9BhCF9RfJLk/AebiQjAaCsUYKpZzbg0brYRQ\nh7kEcbfH7jTrXvKoFkoy2AnnsMVhPbMCt/FaAnND8ahKLxiAFNawdMb8R8luwegR\nxN4SdIC7AgMBAAECggEAGFNPpE8e1KlFLWaj7fbdqoV2qpfQemZQEuqaBhVew3e0\nQym8vY/mVVVvrkEwn5UYgtcXhCdmozdmhPU1YXh87vTKOYMTm099/lemZwkDs2it\nyKqnBf0YT4kGyRen2hkP76t5sprALgbxeMpDOm4F6YFZkmLWRuRCbaMsfOr3kL/d\nNu8DfB8KfpJPudayyRStzF7WI2oMBRGnXY/wpsWB+2GDeUsq8nQTxFbhQ9ue3kl7\nK3FUICBgmExBMsONa0+M3gQlVxtvodMZ9UJ6HHCQTdp/hP6S3n+2d74ylT7q1//j\nzPBc/3cjyKbMuhtknIe81pmTpR8gaUUqaIHTQU1gAQKBgQDl+Rwyeu+Qgdz6yFsP\nn4abIau6fjMamTKpJNTukVPAiE+BQDknns+AlTWbGeiuFeHpUEkXxInMiRapmzEN\nW4yV3ZZmqrvXhz0mjdNfakaRyJePWWYJC5ExGlqs7t3A6x5zcxAywAsacMQvIxua\nxe9nDXNseTuu1fUfsoMprMfegQKBgQDc8jXPxeDsIoYlvWNQ/2Xv5DlDCEe10I2i\nZW5VaZdrWtdm8/mGWQL2Ia6syzATkAcsPOIhBQsXx94wDMeyFENHRkaQ0+P4eNBf\niK7CsEQ9gYtBoloQdjDL2qLFZ3AVEdPodYO7CYP+DwP+u7nHazgBidASI5itMqFR\noCRDFhm5OwKBgHXaCEIyT+x9MHJwFIJYHRII2kly/NtnoNefYWN0pDfpYtz4vZF5\nSBs728HFMEFuQ1xeYWbFuFxR8IQwXJ3cyZnPeZDZc/PKgWLtkWG3Q7zX0BuNE8YU\n4G4KdGdk7c08cFl3oNhxI/+DxHXnhvD0+G+WLA1tv1Ekoj6BK8hCnBaBAoGBAJV5\nY0BSPY1i+eA0VSlp71uwybB4vJLbKcaw2kj8a40cYtdqvOfP9jnvpY2O1NKXQNMD\nyXPPRqbq930IWF04ah+hAoJeZz8k9Mt828Yom7IEnuJjZIz4eKChJDdqeCA49GSy\ng9EYaeyJ2gkOlWu9NKGNy29KF7MsqohfT8j2/aYbAoGAF/uYBzAsps7N50jgJekl\nYjwIkEtP9LmtjQIeD/mPvYnnCphkkJzefo4rS/ya1bJ3gkmzlKe1ph3U5SThwBQ7\nl/+K0Or+WZ2x4xlEXMIGhtL7fq6BlCt1GICM9vGHCg0FY0AVJR4uBtzr4OINnqIt\nQ7s6XjDtatrqRV60yk000wU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-s0h81@countunhealthyfoodbot.iam.gserviceaccount.com",
+  "client_id": "112976195029977957677",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-s0h81%40countunhealthyfoodbot.iam.gserviceaccount.com"
+}
