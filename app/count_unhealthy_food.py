@@ -68,8 +68,14 @@ def start(update, context):
     print('month is ', month)
     if month != current_month:
         number_of_noodles = 0
+        doc_ref.update({
+            u'LastEnteredDate': today,
+            u'TotalNoodleConsumedThisMonth': number_of_noodles
+        })
     else:
-        pass
+        doc_ref.update({
+            u'LastEnteredDate': today
+        })
 
 # /setnoodle
 
@@ -108,10 +114,31 @@ def check_number_noodle(update, context):
     try:
         command = context.args[0].lower()
 
+        current_month = str(date.today()).split('-')[1]
+
+        doc_ref = db.collection(u'data').document(username)
+
+        # get month from last entry in firebase
+        month = db.collection(u'data').document(
+            username).get().to_dict()['LastEnteredDate'].split('-')[1]
+        print('month is ', month)
+        if month != current_month:
+            number_of_noodles = 0
+            doc_ref.update({
+                u'LastEnteredDate': today,
+                u'TotalNoodleConsumedThisMonth': number_of_noodles
+            })
+        else:
+            doc_ref.update({
+                u'LastEnteredDate': today
+            })
+
         if (command == "oops"):
             noodle_today += 1
             number_of_noodles += 1
             number_left = total_noodles - number_of_noodles
+
+
             if (number_left >= 0):
                 text = f'You have eaten {number_of_noodles} packets of noodle(s), {number_left} left for the month.'
                 update.message.reply_text(text)
